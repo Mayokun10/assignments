@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>regisration page</title>
+  <link href="style.css" rel="stylesheet"
+    type="text/css" />
+  <link rel="SUBMIT" href="http://127.0.0.1:5500/.vscode/ZURI/login%20page.html">
+</head>
+
+<body>
+  
+</body>
+<form action="http://127.0.0.1:5500/.vscode/ZURI/login%20page.html">
+            <table>
+                <tr>
+                    <th>
+                        <label for="fname">First name:</label>
+                        <input type="text" name="fname" id="fname"> 
+                    </th>
+                </tr>
+               
+            </table>
+        </div>
+        <br>
+        <div>
+            <table>
+                <tr>
+                    <th>
+                        <label for="lname">Last name:</label>
+                        <input type="text" name="lname" id="lname">
+                    </th>
+                </tr>
+            </table>
+            
+        </div>
+        <br>
+        <div>
+            <table>
+                <tr>
+                    <th>
+                        <label for="phone">Phone number:</label>
+                        <input type="tel" name="number" id="phone">
+                    </th>
+                </tr>
+            </table>
+           
+
+        </div>
+        <br>
+        <div>
+            <table>
+                <tr>
+                    <th>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email">
+                    </th>
+                </tr>
+            </table>            
+        </div>
+        <br>
+        <div>
+            <table>
+                <tr>
+                    <th>
+                        <label for="gender">Gender:</label>
+                        <select name="gender" id="gender">
+                            <option value="Female">Female</option>
+                            <option value="Male">Male</option>
+                        </select>
+                    </th>
+                </tr>
+            </table>
+            
+        </div>
+        <br>
+        <div>
+            <table>
+                <tr>
+                    <th>
+                        <label for="DOB">Date of birth:</label>
+                        <INput type="date" name="date" id="DOB">
+                    </th>
+                </tr>
+            </table>
+           
+        </div>
+        <br>
+        <div>
+            <table>
+                <tr>
+                    <th>
+                        <label for="color">Favorite color:</label>
+                        <input type="color" name="color" id="color">
+                    </th>
+                </tr>
+            </table>
+         
+        </div>
+        <br>
+        <div>
+            <!-- This button will submit the form to http://127.0.0.1:5500/.vscode/ZURI/login%20page.html -->
+           <button type="SUBMIT" id="submit">
+               SUBMIT
+           </button>
+        </div>
+ 
+    </form>
+</html>
